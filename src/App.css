@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 5%;
+  background-color: #282c34;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.board-row {
+  display: flex;
+}
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2em;
+    height: 2em;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 2em;
+}
